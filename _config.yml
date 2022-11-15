@@ -2,7 +2,7 @@
 title: Frosted Echoes
 url: https://frostedechoes.github.io
 paginate: 1
-baseurl: /frostedechoes.github.io
+# baseurl: /frostedechoes.github.io
 permalink: pretty
 
 # Gems
