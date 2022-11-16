@@ -52,6 +52,22 @@
   --spacer: 1rem;
   --spacer-2: calc(var(--spacer) * 1.5);
   --spacer-3: calc(var(--spacer) * 3);
+
+
+  --nord0: #2E3440;
+  --nord1: #3B4252;
+  --nord2: #434C5E;
+  --nord3: #4C566A;
+
+  --nord4: #D8DEE9;
+  --nord5: #E5E9F0;
+  --nord6: #ECEFF4;
+
+  --nord7: #8FBCBB;
+  --nord8: #88C0D0;
+  --nord9: #81A1C1;
+  --nord10: #5E81AC;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -72,11 +88,11 @@
 
 // Dark Poole theme
 [data-theme="dark-poole"] {
-  --body-color: var(--dark-poole-002);
-  --body-bg: var(--gray-900);
+  --body-color: var(--nord6);
+  --body-bg: var(--nord0);
   --heading-color: var(--dark-poole-002);
-  --link-color: var(--dark-poole-002);
-  --link-hover-color: #469ff7;
+  --link-color: var(--nord6);
+  --link-hover-color: var(--nord8);
   --border-color: rgba(255, 255, 255, 0.15);
   --code-bg: var(--gray-900);
 }
